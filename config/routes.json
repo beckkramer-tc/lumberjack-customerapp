@@ -1,0 +1,116 @@
+{
+  "params": {
+    "orderId": 1234,
+    "featured_trunk_id": 712,
+    "trunk_id": 468882
+  },
+  "features": [
+    {
+      "name": "Account Admin",
+      "id": "account-admin",
+      "paths": [
+        "/account/edit",
+        "/account/payment-shipping",
+        "/account/payment-shipping/new-address",
+        "/account/payment-shipping/new-credit-card",
+        "/account/schedule-trunk",
+        "/account/support",
+        "/account/unsubscribe",
+        "/forgot-password",
+        "/reset-password"
+      ]
+    },
+    {
+      "name": "Auth",
+      "id": "auth",
+      "paths": ["/login"]
+    },
+    {
+      "name": "Engagement",
+      "id":"engagement",
+      "paths": [
+        "/account/nordy-club",
+        "/account/pinterest",
+        "/account/pinterest/authorize",
+        "/account/pinterest/boards/:board_id",
+        "/account/pinterest/boards/:board_id/:pin_id",
+        "/account/redeem",
+        "/account/referrals",
+        "/account/wardrobe",
+        "/account/wardrobe/item/:itemId",
+        "/account/wardrobe/outfits",
+        "/experience-rating/:sales_order_id",
+        "/home",
+        "/messenger",
+        "/styleswipes"
+      ]
+    },
+    
+    {
+      "name": "Invalid / 404 Routes",
+      "id": "invalid",
+      "paths": [
+        "/account/404"
+      ]
+    },
+    {
+      "name": "Onboarding",
+      "id": "onboarding",
+      "paths": [
+        "/onboarding/create-account/goals",
+        "/onboarding/create-account/name",
+        "/onboarding/create-account/signup",
+        "/onboarding/style-quiz/:quiz_slug",
+        "/onboarding/style-quiz/intro",
+        "/onboarding/style-quiz/zip-code"
+      ]
+    },{
+      "name": "Preferences",
+      "id": "preferences",
+      "paths": [
+        "/account/budget",
+        "/account/measurements"
+      ]
+    },{
+      "name": "Trunks",
+      "id": "trunks",
+      "paths": [
+        
+        "/account/request-featured-trunk/:featured_trunk_id",
+        "/account/request-featured-trunk/:featured_trunk_id/address",
+        "/account/request-featured-trunk/:featured_trunk_id/credit-card",
+        "/account/trunk-request",
+        "/checkout/:shopping_cart_id",
+        "/checkout/:shopping_cart_id/address",
+        "/checkout/:shopping_cart_id/confirmed",
+        "/checkout/:shopping_cart_id/credit_card",
+        "/trunks/:trunk_id",
+        "/trunks/:trunk_id/feedback",
+        "/trunks/:trunk_id/canceled/:item_id",
+        "/trunks/:trunk_id/checkout",
+        "/trunks/:trunk_id/confirm",
+        "/trunks/:trunk_id/confirm/payment",
+        "/trunks/:trunk_id/confirm/shipping",
+        "/trunks/:trunk_id/confirmed",
+        "/trunks/:trunk_id/decline/:item_id",
+        "/trunks/:trunk_id/exchange-shipping",
+        "/trunks/:trunk_id/exchange-shipping/new",
+        "/trunks/:trunk_id/item/:itemId/:styleVariantId",
+        "/trunks/:trunk_id/keeping/:item_id",
+        "/trunks/:trunk_id/payment/new",
+        "/trunks/:trunk_id/picks",
+        "/trunks/:trunk_id/picks/:uriEncodedProductGlobalId",
+        "/trunks/:trunk_id/rating",
+        "/trunks/:trunk_id/returning/:item_id",
+        "/trunks/:trunk_id/schedule-pickup",
+        "/trunks/:trunk_id/select-return-method",
+        "/trunks/:trunk_id/shipping/new",
+        "/trunks/:trunk_id/similarStyles/:item_id/:uriEncodedProductGlobalId",
+        "/trunks/:trunk_id/update-payment",
+        "/trunks/get-a-trunk",
+        "/trunks/get-a-trunk/:gat_slug",
+        "/trunks/get-a-trunk/intro"
+      ]
+    }
+  ]
+}
